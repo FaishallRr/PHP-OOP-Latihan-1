@@ -25,6 +25,7 @@ class Mahasiswa
 
     function tampilkanData()
     {
+        echo "Data Mahasiswa : <br>";
         echo "NIM : " . $this->nim . "<br>";
         echo "Nama : " . $this->nama . "<br>";
         echo "Program Studi : " . $this->programStudi . "<br><br>";
